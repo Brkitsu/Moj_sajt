@@ -1,0 +1,132 @@
+header{
+    background-color: black;
+}
+.zaglavlje{
+    color: white;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.zaglavlje h1{
+    text-align: left;
+}
+.mainmenu{
+    text-align: center;
+}
+.mainmenu li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.mainmenu li a{
+    color: white;
+    text-decoration: none;
+}
+.pasus{
+    color: white;
+    background-color: black;
+}
+.pasus h2{
+    text-align: center;
+}
+.pasusi{
+    margin-top: 20px;
+    text-align: center;
+}
+.slikatekst{
+    background-image: url("slika.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.slikatekst h1{
+    color: white;
+    text-align: center;
+}
+.slika{
+    background-color: black;
+    margin-bottom: 8px;
+}
+.slika img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.slicice{
+    background-color: black;
+    padding-top: 15px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.podnozje{
+    background-color: black;
+    color: white;
+}
+.mainmenu li a:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.3s;
+    box-shadow: 10px 10px 5px grey;
+    border: solid black;
+    margin-top: -20px;
+}
+.tekst:hover{
+    color: black;
+    text-transform: uppercase;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 10px rgb(255, 255, 255);
+    margin-top: -30px;
+}
+.p:hover{
+    background-color: yellow;
+    border:  solid white;
+}
+.g:hover{
+    background-color: red;
+    border:  solid white;
+}
+.n:hover{
+    background-color: gray;
+    border:  solid white;
+}
+.zaglavlje:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 0px 0px 5px 10px rgb(255, 255, 255);
+    transition: 2s;
+    margin-top: -10px;
+}
+.slika:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 10px rgb(255, 255, 255);
+    margin-top: -30px;
+    transition: 5s;
+}
+.frisk:hover{
+    box-shadow: 0px 0px 5px 10px yellow;
+    transition: 0.2s;
+}
+.sans:hover{
+    box-shadow: 0px 0px 5px 10px turquoise;
+    transition: 0.2s;
+}
+.toriel:hover{
+    box-shadow: 0px 0px 5px 10px orangered;
+    transition: 0.2s;
+}
+.flowey:hover{
+    box-shadow: 0px 0px 5px 10px green;
+    transition: 0.2s;
+}
+.papyrus:hover{
+    box-shadow: 0px 0px 5px 10px blue;
+    transition: 0.2s;
+}
+.chara:hover{
+    box-shadow: 0px 0px 5px 10px red;
+    transition: 0.2s;
+}
+.zaglavlje img:hover{
+    box-shadow: 0px 0px 5px 10px white;
+    background-color: black;
+    transition: 0.3s;
+}
